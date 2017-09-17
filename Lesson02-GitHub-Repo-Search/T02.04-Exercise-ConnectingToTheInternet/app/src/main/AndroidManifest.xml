@@ -2,7 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.android.datafrominternet">
 
-    <!--TODO (1) Add the INTERNET permission-->
+    <!--TODO x (1) Add the INTERNET permission-->
+
+    <uses-permission android:name="android.permission.INTERNET">
+
+    </uses-permission>
+
 
     <application
         android:allowBackup="true"
@@ -13,7 +18,6 @@
         <activity android:name="com.example.android.datafrominternet.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
