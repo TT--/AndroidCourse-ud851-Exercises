@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.android.datafrominternet">
 
+   <!-- Lessson 2-17
+    Need the following permission, otherwise encounter
+    java.lang.SecurityException: Permission denied (missing INTERNET permission?)-->
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
